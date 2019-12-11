@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("sambr228/coursework_2")
+        app = docker.build("sambr228/samdevops")
     }
 
     stage('Test image') {
